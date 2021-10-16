@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+
 }
 
 /*Start of header section*/
@@ -11,14 +12,19 @@ body {
 }
 
 .header {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .logo {
-    font-size: 16px;
+    font-size: 24px;
     color: #F9FAF8;
 }
 
@@ -33,32 +39,25 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 12px;
+    font-size: 18px;
 }
 
-.header-bottom {
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 40px 160px;
+.header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 75px;
 }  
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
 .hero-primary {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 800;
     color: #F9FAF8
 }
 
 .hero-secondary {
-    font-size: 12px;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -78,7 +77,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
-    padding: 20px
+    padding: 30px;
 }
 
 .icon-container {
@@ -100,7 +99,8 @@ a {
 }
 
 .info {
-    margin-top: 30px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 /*Start of lower section*/
 .lower {
@@ -116,17 +116,19 @@ a {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    
 }
 
 .person {
     align-self: flex-end;
     font-weight: bold;
+    font-size: 20px;
 }
 /*Start of bottom*/
 .bottom {
     background-color: #3882F6;
-    margin: 60px;
-    border-radius: 5px;
+    margin: 80px 200px;
+    border-radius: 10px;
 }
 
 .action-container {
@@ -139,12 +141,12 @@ a {
 
 .action-what {
     color:#F9FAF8;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .action-how {
     color: #E5E7EB;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .action-button {
@@ -152,14 +154,16 @@ a {
     color: #F9FAF8;
     border: 1px solid #F9FAF8;
     border-radius: 5px;
+    font-size: 20px;
     padding: 5px 20px;
 }
 /*Start of footer*/
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 }
